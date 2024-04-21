@@ -1,8 +1,10 @@
 @font-face{
   font-family: RWBY_Style;
-  src: url(rwby_style.tff);
+  src: url(rwby_style.ttf);
+  font-weight: normal;
+  font-style: normal;
 }
 
-testDiv {
+.testDiv {
   font-family = RWBY_Style;
 }
