@@ -13,6 +13,7 @@ body {
     text-align: center;
     background-color: #383e42;
     display: flex;
+    justify-content: space-between;
     padding: 0px;
     max-height: 175px;
     border-radius: 10px;
@@ -30,7 +31,8 @@ body {
 }
 
 .TitleHeader .PersonalLogo {
-    position: fixed;
+    position: relative;
+    
     display: flex;
     right: 0;
     padding-right: 30px;
