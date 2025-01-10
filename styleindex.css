@@ -1,4 +1,4 @@
-
+/* UNIVERSAL APPLICATION (ACROSS ENTIRE HTML FILE)*/
 body {
     /* display: flex; */
     color:black;
@@ -8,7 +8,15 @@ body {
     /* background-color: #d3d3d3; */
 }
 
+p {
+    text-indent: 50px;
+}
+
+
+
+/* DIV CLASS DEFINITION AND IMPLEMENTATION*/
 .TitleHeader {
+    width: 200vw;
     color: white;
     text-align: center;
     background-color: #383e42;
@@ -16,11 +24,11 @@ body {
     justify-content: space-between;
     padding: 0px;
     max-height: 175px;
-    border-radius: 10px;
 }
 
 .TitleHeader .Name {
     font-size: 50px;
+    justify-content:flex-start;
     text-align: left;
     padding-top: 30px;
     padding-left:30px;
@@ -31,9 +39,8 @@ body {
 }
 
 .TitleHeader .PersonalLogo {
-    position: relative;
-    
     display: flex;
+    justify-content: flex-end;
     right: 0;
     padding-right: 30px;
     padding-top: 15px;
@@ -66,3 +73,20 @@ body {
     display:block;
 }
 */
+
+
+
+
+.Footer {
+    width: 100vw;
+    background-color:#383e42;
+    color: white;
+    padding:20px;
+}
+
+.Footer .Copyright-Meme {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
