@@ -9,14 +9,14 @@ body {
 }
 
 p {
-    text-indent: 50px;
+    text-indent: 50px; /* Universal indentation on all <p> for HTML (Applies only to first line) */
 }
 
 
 
 /* DIV CLASS DEFINITION AND IMPLEMENTATION*/
 .TitleHeader {
-    width: 200vw;
+    width: 100vw;
     color: white;
     text-align: center;
     background-color: #383e42;
@@ -24,6 +24,11 @@ p {
     justify-content: space-between;
     padding: 0px;
     max-height: 175px;
+}
+
+.TitleHeader a:link, a:visited { /* KEEPS TITLE WHITE */
+    color: white;
+    cursor: auto;
 }
 
 .TitleHeader .Name {
@@ -36,22 +41,18 @@ p {
     z-index: 1;
     position: relative;
     font-family: Times;
+    overflow: none;
+    white-space:nowrap;
+    display: flex;
 }
+
 
 .TitleHeader .PersonalLogo {
     display: flex;
     justify-content: flex-end;
-    right: 0;
     padding-right: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
-    opacity: 100;
-    transition: opacity 0.5s ease;
-}
-
-.fade-out {
-    opacity: 0;             /* LOGO BECOMES CLEAR */
-    pointer-events: none;   /* NOTHING HAPPENS IF CURSOR IS ON LOGO */
 }
 
 /*
@@ -81,7 +82,16 @@ p {
     width: 100vw;
     background-color:#383e42;
     color: white;
-    padding:20px;
+    padding:0px;
+}
+
+.Footer .ContactInfo {
+    padding: 10px;
+}
+
+
+.Footer .ViewportWarning {
+    padding: 10px;
 }
 
 .Footer .Copyright-Meme {
