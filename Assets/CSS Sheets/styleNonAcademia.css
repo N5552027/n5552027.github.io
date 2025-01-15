@@ -1,0 +1,83 @@
+/* ======================
+
+    UNIVERSAL MODIFIERS
+
+========================*/
+
+
+/* ======================
+
+    div-class MODIFIERS
+
+========================*/
+
+/******************* TITLE HEADER MODIFIERS ************************/
+.TitleHeader {
+    width: 100vw;
+    color: white;
+    text-align: center;
+    background-color: #383e42;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    max-height: 175px;
+    text-underline-offset: 200px;
+}
+
+.TitleHeader a:link, a:visited { /* KEEPS TITLE WHITE */
+    color: white;
+    cursor: auto;
+}
+
+.TitleHeader .Name {
+    font-size: clamp(50px, 5.3vw, 50px);
+    justify-content:flex-start;
+    text-align: left;
+    padding-top: 30px;
+    padding-left:30px;
+    padding-bottom: 15px;
+    z-index: 1;
+    position: relative;
+    font-family: Times;
+    overflow: none;
+    white-space: wrap;
+    display: flex;
+}
+
+
+.TitleHeader .PersonalLogo {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/******************* TOP NAVBAR MODIFIERS ************************/
+.topnavbar {
+    background-color: #d3d3d3;
+    padding: 0px;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.topnavbar a {
+    float: left;
+    color: #910c0c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration-line: none;
+    font-size: 20px;
+    text-underline-offset: 200px;
+    font-family: 'Trebuchet MS';
+}
+
+.topnavbar a:hover {
+    background-color: #910c0c;
+    color: white;
+}
+
+.topnavbar a.active {
+    background-color: #910c0c;
+    color: white;
+}
