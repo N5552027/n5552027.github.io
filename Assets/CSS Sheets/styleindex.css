@@ -45,7 +45,7 @@ p {
 }
 
 .TitleHeader .Name {
-    font-size: clamp(50px, 5.3vw, 50px);
+    font-size: clamp(1vw, 5.3vw, 50px);
     justify-content:flex-start;
     text-align: left;
     padding-top: 30px;
