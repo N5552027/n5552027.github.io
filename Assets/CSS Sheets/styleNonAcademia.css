@@ -59,6 +59,7 @@
     padding: 0px;
     justify-content: space-evenly;
     overflow: hidden;
+    width: 100vw;
 }
 
 .topnavbar a {
